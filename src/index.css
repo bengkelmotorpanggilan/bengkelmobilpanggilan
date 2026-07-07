@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --radius-DEFAULT: var(--radius);
+}
+
+:root {
+  /* Nord Polar Night */
+  --background: #2E3440;
+  --foreground: #ECEFF4;
+  --card: #3B4252;
+  --card-foreground: #E5E9F0;
+  --primary: #88C0D0;
+  --primary-foreground: #2E3440;
+  --secondary: #434C5E;
+  --secondary-foreground: #D8DEE9;
+  --muted: #4C566A;
+  --muted-foreground: #D8DEE9;
+  --accent: #A3BE8C;
+  --accent-foreground: #2E3440;
+  --border: rgba(216, 222, 233, 0.12);
+  --ring: #88C0D0;
+  --radius: 0.75rem;
+
+  /* Nord Frost */
+  --frost-1: #8FBCBB;
+  --frost-2: #88C0D0;
+  --frost-3: #81A1C1;
+  --frost-4: #5E81AC;
+
+  /* Nord Aurora */
+  --aurora-red: #BF616A;
+  --aurora-orange: #D08770;
+  --aurora-yellow: #EBCB8B;
+  --aurora-green: #A3BE8C;
+  --aurora-purple: #B48EAD;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #2E3440;
+  color: #ECEFF4;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Hide scrollbar by default */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #2E3440;
+}
+::-webkit-scrollbar-thumb {
+  background: #4C566A;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #88C0D0;
+}
+
+/* Smooth transitions */
+a, button {
+  transition: all 0.2s ease;
+}

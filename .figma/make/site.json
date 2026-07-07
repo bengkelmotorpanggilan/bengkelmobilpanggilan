@@ -1,0 +1,10 @@
+{
+  "description": "Landing page for a mobile car repair service in Jakarta area offering easy contact, service info, client testimonials, and social media links with SEO focus.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
